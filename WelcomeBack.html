@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Back - CropGen</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      body {
+        background-color: #f3f4f6;
+      }
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+      }
+      .card {
+        width: 600px;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .card-header {
+        background-color: #246B27;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: #ffffff;
+      }
+      .card-header img {
+        display: block;
+        margin: 0 auto;
+        height: 2.5rem;
+      }
+      .divider {
+        border-top: 1px solid #d1d5db;
+        width: 25%;
+        margin: 0.75rem auto;
+      }
+      .card-header h2 {
+        font-size: 1.125rem;
+        font-weight: 500;
+      }
+      .card-body {
+        padding: 2.5rem 2rem;
+        text-align: center;
+        color: #374151;
+        flex-grow: 1;
+      }
+      .card-body h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      .card-body p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+      }
+      .card-body p span {
+        font-weight: 500;
+      }
+      .button {
+        display: inline-block;
+        background-color: #345F11;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 0.9375rem;
+        padding: 1rem 2rem;
+        width: 75%;
+        border-radius: 0.375rem;
+        text-decoration: none;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: background-color 0.3s;
+      }
+      .button:hover {
+        background-color: #1e5620;
+      }
+      .support-text {
+        font-size: 0.8125rem;
+        color: #374151;
+        margin-top: 2rem;
+      }
+      .happy-farming {
+        font-size: 0.8125rem;
+        margin-top: 1.5rem;
+      }
+      .footer-text {
+        margin-top: 1.5rem;
+        font-weight: 600;
+      }
+      .footer-sub {
+        margin-top: 0.25rem;
+        font-weight: 600;
+        color: #1f2937;
+      }
+      .card-footer {
+        background-color: #246B27;
+        padding: 1.5rem 0;
+        color: #ffffff;
+        text-align: center;
+      }
+      .card-footer a {
+        color: #ffffff;
+        text-decoration: underline;
+        margin: 0 0.75rem;
+        font-size: 0.875rem;
+      }
+      .card-footer a:hover {
+        color: #d1f1c4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <img src="assets/cropgen-logo.png" alt="CropGen" />
+          <div class="divider"></div>
+          <h2>Welcome Back</h2>
+        </div>
+
+        <!-- Body -->
+        <div class="card-body">
+          <h1>Hello again!</h1>
+          <p>
+            We’re glad to see you back, 
+            <span>example@example.com</span>.  
+            Continue exploring your farm insights and smarter farming solutions below.
+          </p>
+
+          <!-- Continue Button -->
+          <a href="https://app.cropgenapp.com/login" class="button">Go to Dashboard</a>
+
+          <!-- Support -->
+          <p class="support-text">
+            Need help accessing your account? Don’t hesitate to contact Customer Services.
+          </p>
+
+          <p class="happy-farming">Happy Farming!</p>
+
+          <!-- Footer text inside body -->
+          <p class="footer-text">CropGen</p>
+          <p class="footer-sub">Smarter Farming Starts Here.</p>
+        </div>
+
+        <!-- Footer inside card -->
+        <div class="card-footer">
+          <a href="https://www.cropgenapp.com/privacy-policy" target="_blank">Privacy Policy</a>
+          <a href="https://www.cropgenapp.com/terms-conditions" target="_blank">Terms & Conditions</a>
+          <a href="https://www.cropgenapp.com/contact" target="_blank">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

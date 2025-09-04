@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verification Code - CropGen</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    body {
+      background-color: #f3f4f6;
+      /* bg-gray-100 */
+    }
+
+    .container {
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+    }
+
+    .card {
+      width: 600px;
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    /* Header */
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem;
+      /* p-3 */
+    }
+
+    .card-header img {
+      height: 3rem;
+    }
+
+    .card-header h2 {
+      color: #345D13;
+      font-weight: 600;
+    }
+
+    /* Body */
+    .card-body {
+      background-color: #F5F8FF;
+      padding: 2.5rem 2rem;
+      color: #000000;
+      position: relative;
+    }
+
+    .card-body h1 {
+      font-size: 40px;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+
+    .card-body p {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .card-body p:nth-child(2) {
+      font-size: 18px;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-body p:nth-child(3) {
+      font-size: 19px;
+      margin-bottom: 1.5rem;
+    }
+
+    .code-box {
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 1.25rem;
+      /* text-xl */
+      font-weight: 700;
+      padding: 1rem 1.5rem;
+      border-radius: 0.375rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-body a {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+
+    .card-body img {
+      position: absolute;
+      bottom: 0;
+      right: 1.5rem;
+      width: 6rem;
+    }
+
+    /* Footer */
+    .card-footer {
+      background-color: #345F11;
+      color: #f3f4f6;
+      padding: 1.5rem 2rem;
+      font-size: 12px;
+    }
+
+    .card-footer .links a {
+      color: #60a5fa;
+      text-decoration: underline;
+      margin-right: 0.75rem;
+    }
+
+    .card-footer p {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <!-- Header -->
+      <div class="card-header">
+        <img src="/assets/logo trans 1.png" alt="CropGen Logo" />
+        <h2>CropGen</h2>
+      </div>
+
+      <!-- Body -->
+      <div class="card-body">
+        <h1>Your CropGen verification code</h1>
+        <p>Hi UserName,</p>
+        <p>To finish logging in to your CropGen account, enter this verification code:</p>
+
+        <!-- Code Box -->
+        <div class="code-box">6687</div>
+
+        <p>If you didn’t make this request or you need <br> assistance, visit the
+          <a href="#">Help Centre</a>.
+        </p>
+
+        <!-- Illustration -->
+        <img src="assets/Footer Image.png" alt="Verification" />
+      </div>
+
+      <!-- Footer -->
+      <div class="card-footer">
+        <div class="links">
+          <a href="https://app.cropgenapp.com/login">Dashboard</a>
+          <a href="#">Billing</a>
+          <a href="#">Help</a>
+        </div>
+        <br>
+        <p>
+          You received this email because you just signed up for a new account. If it looks weird,
+          view it in your browser.
+        </p>
+        <p>
+          If these emails get annoying, please feel free to
+          unsubscribe.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
